@@ -1,0 +1,153 @@
+/*Le code css suivant sert a la mise en page du corps de mes pages
+background-image: url("image/wallpaper.jpg");
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+*/
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  background-color: white;
+}
+
+/*Le code css suivant sert a la mise en page des icones et des titres de mes pages*/
+
+#banniere img {
+
+  align-items: center;
+  height: 50px;
+  width: 50px;
+
+}
+
+/*Mise en page du titre de chacune de mes pages avec un titre lumineux*/
+#banniere h1 {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(245, 135, 9), 0 0 20px rgb(245, 135, 9), 0 0 30px rgb(245, 135, 9), 0 0 40px rgb(245, 135, 9), 0 0 50px rgb(245, 135, 9), 0 0 60px rgb(245, 135, 9), 0 0 70px rgb(245, 135, 9);
+  }
+  
+  to {
+    text-shadow: 0 0 20px rgb(245, 135, 9), 0 0 30px rgb(245, 135, 9), 0 0 40px rgb(245, 135, 9), 0 0 50px rgb(245, 135, 9), 0 0 60px rgb(245, 135, 9), 0 0 70px rgb(245, 135, 9), 0 0 80px rgb(245, 135, 9);
+  }
+}
+
+/*Le code css suivant sert a la mise en page de mon texte d'introduction*/
+
+#intro p {
+  
+  margin-left: 11cm;
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+  border: 1px solid orange;
+  border-style: ridge;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+}
+
+/*Ser a la mise en page de la video youtube*/
+
+#ytb {
+  margin-left: 1cm;
+  margin-top: 0,5cm;
+}
+
+/*Autres*/
+
+#fleche a img {
+
+  align-items: right;
+  height: 50px;
+  width: 50px;
+
+}
+
+/*Mise en page cryptoHistoire*/
+
+#titreHistoire h4 {
+
+  text-align: center;
+  font-size: 15;
+  color: black;
+
+}
+
+#pHistoire p {
+
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+
+/*Mise en page cryptoInfluentes*/
+#monnaies h4{
+
+  text-align: start;
+  font-size: 15;
+  color: black;
+}
+
+#paragraphe p {
+
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid orange;
+  border-style: ridge;
+  text-align: start;
+  color: black;
+
+}
+
+/*mise en page de la partie contenant les sources des information de mon site*/
+
+#source {
+  
+  font-size: 9px;
+  text-align: end;
+  color: gray;
+}
+
+#source img {
+
+  width: 1cm;
+  height: 1cm;
+}
+
+/*Mise en page de mon tableau */
+
+.tableau .mp {
+  
+    border-width: 2px;
+    border-color: orange;
+    text-align: center;
+    border-style: solid;
+    color: black;
+    
+}
+
+/* Centrage de mon tableau sur la page*/
+
+.tableau ,td {
+
+  margin-left: 15cm;
+  color: black;
+
+}
